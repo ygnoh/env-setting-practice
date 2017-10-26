@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ygnoh/env-setting-practice/issues"
   },
-  "homepage": "https://github.com/ygnoh/env-setting-practice#readme"
+  "homepage": "https://github.com/ygnoh/env-setting-practice#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
 }
