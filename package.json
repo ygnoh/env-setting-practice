@@ -18,5 +18,8 @@
   "homepage": "https://github.com/ygnoh/env-setting-practice#readme",
   "dependencies": {
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }
