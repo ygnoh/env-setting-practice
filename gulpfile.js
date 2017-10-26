@@ -1,6 +1,14 @@
 const gulp = require('gulp');
-// 걸프 의존성을 여기에 씁니다.
+const babel = require('gulp-babel');
 
 gulp.task('default', function() {
-    // 걸프 작업을 여기에 씁니다.
+    // node source
+    gulp.src("es6/**/*.js")
+        .pipe(babel())
+        .pipe(gulp.dest("dist"));
+
+    // browser source
+    gulp.src("public/es6/**/*.js")
+        .pipe(babel())
+        .pipe(gulp.dest("public/dist"));
 });
